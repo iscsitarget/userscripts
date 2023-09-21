@@ -20,4 +20,5 @@
             link.parentNode.replaceChild(span, link);
         });
     }
+    window.addEventListener('load', removeGlossaryLinks);
 })();
